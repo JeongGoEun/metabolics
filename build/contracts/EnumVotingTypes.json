@@ -1,0 +1,165 @@
+{
+  "contractName": "EnumVotingTypes",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a7230582021e848a4e2987dca7ea80032c1ae65e0b9708abcc051cc4d80b857d78744f0300029",
+  "deployedBytecode": "0x6080604052600080fd00a165627a7a7230582021e848a4e2987dca7ea80032c1ae65e0b9708abcc051cc4d80b857d78744f0300029",
+  "sourceMap": "27:96:5:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:96:5;;;;;;;",
+  "deployedSourceMap": "27:96:5:-;;;;;",
+  "source": "pragma solidity ^0.4.24;\n\n\ncontract EnumVotingTypes {\n    enum VotingTypes {Invalid, AddMember, SubMember, ReplaceMember}\n}",
+  "sourcePath": "/Users/jeong-go-eun/Desktop/metabolics/contracts/abstract/VotingTypes.sol",
+  "ast": {
+    "absolutePath": "/Users/jeong-go-eun/Desktop/metabolics/contracts/abstract/VotingTypes.sol",
+    "exportedSymbols": {
+      "EnumVotingTypes": [
+        857
+      ]
+    },
+    "id": 858,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 851,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:5"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 857,
+        "linearizedBaseContracts": [
+          857
+        ],
+        "name": "EnumVotingTypes",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "EnumVotingTypes.VotingTypes",
+            "id": 856,
+            "members": [
+              {
+                "id": 852,
+                "name": "Invalid",
+                "nodeType": "EnumValue",
+                "src": "76:7:5"
+              },
+              {
+                "id": 853,
+                "name": "AddMember",
+                "nodeType": "EnumValue",
+                "src": "85:9:5"
+              },
+              {
+                "id": 854,
+                "name": "SubMember",
+                "nodeType": "EnumValue",
+                "src": "96:9:5"
+              },
+              {
+                "id": 855,
+                "name": "ReplaceMember",
+                "nodeType": "EnumValue",
+                "src": "107:13:5"
+              }
+            ],
+            "name": "VotingTypes",
+            "nodeType": "EnumDefinition",
+            "src": "58:63:5"
+          }
+        ],
+        "scope": 858,
+        "src": "27:96:5"
+      }
+    ],
+    "src": "0:123:5"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/jeong-go-eun/Desktop/metabolics/contracts/abstract/VotingTypes.sol",
+    "exportedSymbols": {
+      "EnumVotingTypes": [
+        857
+      ]
+    },
+    "id": 858,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 851,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:5"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 857,
+        "linearizedBaseContracts": [
+          857
+        ],
+        "name": "EnumVotingTypes",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "EnumVotingTypes.VotingTypes",
+            "id": 856,
+            "members": [
+              {
+                "id": 852,
+                "name": "Invalid",
+                "nodeType": "EnumValue",
+                "src": "76:7:5"
+              },
+              {
+                "id": 853,
+                "name": "AddMember",
+                "nodeType": "EnumValue",
+                "src": "85:9:5"
+              },
+              {
+                "id": 854,
+                "name": "SubMember",
+                "nodeType": "EnumValue",
+                "src": "96:9:5"
+              },
+              {
+                "id": 855,
+                "name": "ReplaceMember",
+                "nodeType": "EnumValue",
+                "src": "107:13:5"
+              }
+            ],
+            "name": "VotingTypes",
+            "nodeType": "EnumDefinition",
+            "src": "58:63:5"
+          }
+        ],
+        "scope": 858,
+        "src": "27:96:5"
+      }
+    ],
+    "src": "0:123:5"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2019-01-28T08:33:24.923Z"
+}

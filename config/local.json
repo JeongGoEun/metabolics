@@ -1,6 +1,15 @@
 {
-    "mnemonic":"word word word word word",
-    "provider":"http://127.0.0.1:8545",
-    "network_id":"1",
-    "gasPrice":100000000000
+    "metadiumTestnet": {
+        "mnemonic": "below genre car syrup attend trap word win enemy cliff wide term",
+        "provider": "http://13.124.111.52:8545",
+        "network_id": 101,
+        "gasPrice": 100000000000
+    },
+    "ropsten": {
+        "mnemonic": "below genre car syrup attend trap word win enemy cliff wide term",
+        "provider": "https://ropsten.infura.io/b4323e3928d142b19460679597283380",
+        "network_id": 3,
+        "gas": 4000000,
+        "gasPrice":100000000000
+    }
 }

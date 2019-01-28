@@ -1,0 +1,201 @@
+{
+  "contractName": "EnumVariableTypes",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a72305820d73d9850530b395be644c952624ed08b0c9fac9c1bf6005c104f557dc4c946820029",
+  "deployedBytecode": "0x6080604052600080fd00a165627a7a72305820d73d9850530b395be644c952624ed08b0c9fac9c1bf6005c104f557dc4c946820029",
+  "sourceMap": "26:169:10:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:169:10;;;;;;;",
+  "deployedSourceMap": "26:169:10:-;;;;;",
+  "source": "pragma solidity ^0.4.24;\n\ncontract EnumVariableTypes {\n    enum VariableTypes {\n        Invalid,\n        Int,\n        Uint,\n        Address,\n        Bytes32,\n        Bytes,\n        String\n    }\n}",
+  "sourcePath": "/Users/jeong-go-eun/Desktop/metabolics/contracts/storage/EnumVariableTypes.sol",
+  "ast": {
+    "absolutePath": "/Users/jeong-go-eun/Desktop/metabolics/contracts/storage/EnumVariableTypes.sol",
+    "exportedSymbols": {
+      "EnumVariableTypes": [
+        2264
+      ]
+    },
+    "id": 2265,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2255,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:10"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2264,
+        "linearizedBaseContracts": [
+          2264
+        ],
+        "name": "EnumVariableTypes",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "EnumVariableTypes.VariableTypes",
+            "id": 2263,
+            "members": [
+              {
+                "id": 2256,
+                "name": "Invalid",
+                "nodeType": "EnumValue",
+                "src": "88:7:10"
+              },
+              {
+                "id": 2257,
+                "name": "Int",
+                "nodeType": "EnumValue",
+                "src": "105:3:10"
+              },
+              {
+                "id": 2258,
+                "name": "Uint",
+                "nodeType": "EnumValue",
+                "src": "118:4:10"
+              },
+              {
+                "id": 2259,
+                "name": "Address",
+                "nodeType": "EnumValue",
+                "src": "132:7:10"
+              },
+              {
+                "id": 2260,
+                "name": "Bytes32",
+                "nodeType": "EnumValue",
+                "src": "149:7:10"
+              },
+              {
+                "id": 2261,
+                "name": "Bytes",
+                "nodeType": "EnumValue",
+                "src": "166:5:10"
+              },
+              {
+                "id": 2262,
+                "name": "String",
+                "nodeType": "EnumValue",
+                "src": "181:6:10"
+              }
+            ],
+            "name": "VariableTypes",
+            "nodeType": "EnumDefinition",
+            "src": "59:134:10"
+          }
+        ],
+        "scope": 2265,
+        "src": "26:169:10"
+      }
+    ],
+    "src": "0:195:10"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/jeong-go-eun/Desktop/metabolics/contracts/storage/EnumVariableTypes.sol",
+    "exportedSymbols": {
+      "EnumVariableTypes": [
+        2264
+      ]
+    },
+    "id": 2265,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2255,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:10"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2264,
+        "linearizedBaseContracts": [
+          2264
+        ],
+        "name": "EnumVariableTypes",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "EnumVariableTypes.VariableTypes",
+            "id": 2263,
+            "members": [
+              {
+                "id": 2256,
+                "name": "Invalid",
+                "nodeType": "EnumValue",
+                "src": "88:7:10"
+              },
+              {
+                "id": 2257,
+                "name": "Int",
+                "nodeType": "EnumValue",
+                "src": "105:3:10"
+              },
+              {
+                "id": 2258,
+                "name": "Uint",
+                "nodeType": "EnumValue",
+                "src": "118:4:10"
+              },
+              {
+                "id": 2259,
+                "name": "Address",
+                "nodeType": "EnumValue",
+                "src": "132:7:10"
+              },
+              {
+                "id": 2260,
+                "name": "Bytes32",
+                "nodeType": "EnumValue",
+                "src": "149:7:10"
+              },
+              {
+                "id": 2261,
+                "name": "Bytes",
+                "nodeType": "EnumValue",
+                "src": "166:5:10"
+              },
+              {
+                "id": 2262,
+                "name": "String",
+                "nodeType": "EnumValue",
+                "src": "181:6:10"
+              }
+            ],
+            "name": "VariableTypes",
+            "nodeType": "EnumDefinition",
+            "src": "59:134:10"
+          }
+        ],
+        "scope": 2265,
+        "src": "26:169:10"
+      }
+    ],
+    "src": "0:195:10"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2019-01-28T08:33:24.924Z"
+}

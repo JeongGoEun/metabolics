@@ -1,0 +1,309 @@
+{
+  "contractName": "BallotEnums",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a723058201e6592ece22111ef6207a3ac8bf21194ca7dd4ae151c583ad12c4abee3ebd0a70029",
+  "deployedBytecode": "0x6080604052600080fd00a165627a7a723058201e6592ece22111ef6207a3ac8bf21194ca7dd4ae151c583ad12c4abee3ebd0a70029",
+  "sourceMap": "26:535:8:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:535:8;;;;;;;",
+  "deployedSourceMap": "26:535:8:-;;;;;",
+  "source": "pragma solidity ^0.4.24;\n\ncontract BallotEnums {\n    enum BallotStates {Invalid, InProgress, Accepted, Rejected}\n    enum DecisionTypes {Invalid, Accept, Reject}\n    enum BallotTypes {\n        Invalid,\n        MemberAdd,  // new Member Address, new Node id, new Node ip, new Node port\n        MemberRemoval, // old Member Address\n        MemberChange,     // Old Member Address, New Member Address, new Node id, New Node ip, new Node port\n        GovernanceChange, // new Governace Impl Address\n        EnvValChange    // Env variable name, type , value\n    }\n}",
+  "sourcePath": "/Users/jeong-go-eun/Desktop/metabolics/contracts/storage/BallotEnums.sol",
+  "ast": {
+    "absolutePath": "/Users/jeong-go-eun/Desktop/metabolics/contracts/storage/BallotEnums.sol",
+    "exportedSymbols": {
+      "BallotEnums": [
+        968
+      ]
+    },
+    "id": 969,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 951,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:8"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 968,
+        "linearizedBaseContracts": [
+          968
+        ],
+        "name": "BallotEnums",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "BallotEnums.BallotStates",
+            "id": 956,
+            "members": [
+              {
+                "id": 952,
+                "name": "Invalid",
+                "nodeType": "EnumValue",
+                "src": "72:7:8"
+              },
+              {
+                "id": 953,
+                "name": "InProgress",
+                "nodeType": "EnumValue",
+                "src": "81:10:8"
+              },
+              {
+                "id": 954,
+                "name": "Accepted",
+                "nodeType": "EnumValue",
+                "src": "93:8:8"
+              },
+              {
+                "id": 955,
+                "name": "Rejected",
+                "nodeType": "EnumValue",
+                "src": "103:8:8"
+              }
+            ],
+            "name": "BallotStates",
+            "nodeType": "EnumDefinition",
+            "src": "53:59:8"
+          },
+          {
+            "canonicalName": "BallotEnums.DecisionTypes",
+            "id": 960,
+            "members": [
+              {
+                "id": 957,
+                "name": "Invalid",
+                "nodeType": "EnumValue",
+                "src": "137:7:8"
+              },
+              {
+                "id": 958,
+                "name": "Accept",
+                "nodeType": "EnumValue",
+                "src": "146:6:8"
+              },
+              {
+                "id": 959,
+                "name": "Reject",
+                "nodeType": "EnumValue",
+                "src": "154:6:8"
+              }
+            ],
+            "name": "DecisionTypes",
+            "nodeType": "EnumDefinition",
+            "src": "117:44:8"
+          },
+          {
+            "canonicalName": "BallotEnums.BallotTypes",
+            "id": 967,
+            "members": [
+              {
+                "id": 961,
+                "name": "Invalid",
+                "nodeType": "EnumValue",
+                "src": "193:7:8"
+              },
+              {
+                "id": 962,
+                "name": "MemberAdd",
+                "nodeType": "EnumValue",
+                "src": "210:9:8"
+              },
+              {
+                "id": 963,
+                "name": "MemberRemoval",
+                "nodeType": "EnumValue",
+                "src": "293:13:8"
+              },
+              {
+                "id": 964,
+                "name": "MemberChange",
+                "nodeType": "EnumValue",
+                "src": "338:12:8"
+              },
+              {
+                "id": 965,
+                "name": "GovernanceChange",
+                "nodeType": "EnumValue",
+                "src": "447:16:8"
+              },
+              {
+                "id": 966,
+                "name": "EnvValChange",
+                "nodeType": "EnumValue",
+                "src": "503:12:8"
+              }
+            ],
+            "name": "BallotTypes",
+            "nodeType": "EnumDefinition",
+            "src": "166:393:8"
+          }
+        ],
+        "scope": 969,
+        "src": "26:535:8"
+      }
+    ],
+    "src": "0:561:8"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/jeong-go-eun/Desktop/metabolics/contracts/storage/BallotEnums.sol",
+    "exportedSymbols": {
+      "BallotEnums": [
+        968
+      ]
+    },
+    "id": 969,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 951,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:8"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 968,
+        "linearizedBaseContracts": [
+          968
+        ],
+        "name": "BallotEnums",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "BallotEnums.BallotStates",
+            "id": 956,
+            "members": [
+              {
+                "id": 952,
+                "name": "Invalid",
+                "nodeType": "EnumValue",
+                "src": "72:7:8"
+              },
+              {
+                "id": 953,
+                "name": "InProgress",
+                "nodeType": "EnumValue",
+                "src": "81:10:8"
+              },
+              {
+                "id": 954,
+                "name": "Accepted",
+                "nodeType": "EnumValue",
+                "src": "93:8:8"
+              },
+              {
+                "id": 955,
+                "name": "Rejected",
+                "nodeType": "EnumValue",
+                "src": "103:8:8"
+              }
+            ],
+            "name": "BallotStates",
+            "nodeType": "EnumDefinition",
+            "src": "53:59:8"
+          },
+          {
+            "canonicalName": "BallotEnums.DecisionTypes",
+            "id": 960,
+            "members": [
+              {
+                "id": 957,
+                "name": "Invalid",
+                "nodeType": "EnumValue",
+                "src": "137:7:8"
+              },
+              {
+                "id": 958,
+                "name": "Accept",
+                "nodeType": "EnumValue",
+                "src": "146:6:8"
+              },
+              {
+                "id": 959,
+                "name": "Reject",
+                "nodeType": "EnumValue",
+                "src": "154:6:8"
+              }
+            ],
+            "name": "DecisionTypes",
+            "nodeType": "EnumDefinition",
+            "src": "117:44:8"
+          },
+          {
+            "canonicalName": "BallotEnums.BallotTypes",
+            "id": 967,
+            "members": [
+              {
+                "id": 961,
+                "name": "Invalid",
+                "nodeType": "EnumValue",
+                "src": "193:7:8"
+              },
+              {
+                "id": 962,
+                "name": "MemberAdd",
+                "nodeType": "EnumValue",
+                "src": "210:9:8"
+              },
+              {
+                "id": 963,
+                "name": "MemberRemoval",
+                "nodeType": "EnumValue",
+                "src": "293:13:8"
+              },
+              {
+                "id": 964,
+                "name": "MemberChange",
+                "nodeType": "EnumValue",
+                "src": "338:12:8"
+              },
+              {
+                "id": 965,
+                "name": "GovernanceChange",
+                "nodeType": "EnumValue",
+                "src": "447:16:8"
+              },
+              {
+                "id": 966,
+                "name": "EnvValChange",
+                "nodeType": "EnumValue",
+                "src": "503:12:8"
+              }
+            ],
+            "name": "BallotTypes",
+            "nodeType": "EnumDefinition",
+            "src": "166:393:8"
+          }
+        ],
+        "scope": 969,
+        "src": "26:535:8"
+      }
+    ],
+    "src": "0:561:8"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2019-01-28T08:33:24.924Z"
+}

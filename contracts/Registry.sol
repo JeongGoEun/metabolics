@@ -1,6 +1,7 @@
 pragma solidity ^0.4.24;
 
-import "./openzeppelin-solidity/contracts/ownership/Ownable.sol";
+import "openzeppelin-solidity/contracts/ownership/Ownable.sol";
+
 
 /**
  * @title Registry
@@ -10,13 +11,11 @@ import "./openzeppelin-solidity/contracts/ownership/Ownable.sol";
  * Owner should set domain and permission.
  */
 contract Registry is Ownable {
-    
     mapping(bytes32=>address) public contracts;
     mapping(bytes32=>mapping(address=>bool)) public permissions;
 
     event SetContractDomain(address setter, bytes32 indexed name, address indexed addr);
     event SetPermission(bytes32 indexed _contract, address indexed granted, bool status);
-
 
     /**
     * @dev Function to set contract(can be general address) domain
@@ -32,20 +31,19 @@ contract Registry is Ownable {
         emit SetContractDomain(msg.sender, _name, _addr);
 
         return true;
-        //TODO should decide whether to set 0x00 to destoryed contract or not
-        
-
     }
+
     /**
     * @dev Function to get contract(can be general address) address
     * Anyone can use this function
     * @param _name _name
     * @return An address of the _name
     */
-    function getContractAddress(bytes32 _name) public view returns(address addr) {
+    function getContractAddress(bytes32 _name) public view returns (address addr) {
         require(contracts[_name] != address(0x0), "address should be non-zero");
         return contracts[_name];
     }
+    
     /**
     * @dev Function to set permission on contract
     * contract using modifier 'permissioned' references mapping variable 'permissions'
@@ -55,7 +53,7 @@ contract Registry is Ownable {
     * @param _status true = can use, false = cannot use. default is false
     * @return A boolean that indicates if the operation was successful.
     */
-    function setPermission(bytes32 _contract, address _granted, bool _status) public onlyOwner returns(bool success) {
+    function setPermission(bytes32 _contract, address _granted, bool _status) public onlyOwner returns (bool success) {
         require(_granted != address(0x0), "address should be non-zero");
         permissions[_contract][_granted] = _status;
 
@@ -71,7 +69,7 @@ contract Registry is Ownable {
     * @param _granted granted address
     * @return permission result
     */
-    function getPermission(bytes32 _contract, address _granted) public view returns(bool found) {
+    function getPermission(bytes32 _contract, address _granted) public view returns (bool found) {
         return permissions[_contract][_granted];
     }
     
