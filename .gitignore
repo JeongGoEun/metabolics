@@ -1,7 +1,4 @@
 node_modules
 misc
-config/default.json
-config/local.json
-config/local-development.json
-.config/local.json
+config
 .node-xmlhttprequest-sync-15480
