@@ -1,7 +1,7 @@
 require('babel-register')
 
 var HDWalletProvider = require("truffle-hdwallet-provider")
-//var Web3 = require('web3')
+var Web3 = require('web3')
 
 const config = require('config')
 const ropstenConfig = config.get('ropsten')
@@ -25,7 +25,7 @@ module.exports = {
     // },
     metadiumTestnet: {
       provider: () => {
-        return new Web3.providers.HttpProvider(metaTestnetConfig.provider);
+        return new HDWalletProvider(metaTestnetConfig.mnemonic, metaTestnetConfig.provider);
       },
       network_id: metaTestnetConfig.network_id,
       gasPrice: metaTestnetConfig.gasPrice
